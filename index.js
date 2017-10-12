@@ -8,7 +8,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   return object;
 }
 
-function deleteFromObjectByKey (object, key) {
+function deleteFromObjectByKey(object, key) {
   var altOject = Object.assign({}, object);
   delete altObject[key];
   return altObject
